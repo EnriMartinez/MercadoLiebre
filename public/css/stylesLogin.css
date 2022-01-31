@@ -1,0 +1,47 @@
+form{
+    display: block;
+    width: 90%;
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 1px;
+    font-size: 14px;
+    outline: none;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 5px;
+    color: #efefef;
+    background-color: #1259c3;
+    border: solid 0.5px #094db3;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+input::placeholder{
+    color: rgba(102, 102, 102, 0.795);
+    transition: color 0.3 ease;
+}
+
+.button:hover{
+    background-color: #0022AA;
+    transition: background-color .7s;
+}
